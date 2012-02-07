@@ -1,0 +1,5 @@
+fcitx-table-extra (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #658151)
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Tue, 07 Feb 2012 11:52:53 +0800

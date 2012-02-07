@@ -1,0 +1,21 @@
+Source: fcitx-table-extra
+Section: utils
+Priority: optional
+Maintainer: IME Packaging Team <pkg-ime-devel@lists.debian.org>
+Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8), cmake, fcitx-libs-dev (>=1:4.2.0), fcitx-tools,
+  intltool
+Standards-Version: 3.9.2
+Homepage: http://fcitx.googlecode.com
+Vcs-Git: git://git.debian.org/pkg-ime/fcitx-table-extra.git
+Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-table-extra.git
+
+Package: fcitx-table-extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Description: extra tables for Fcitx
+ provides extra table for Fcitx, including Boshiamy, Zhengma, 
+ and Cangjie3, Cangjie5.
+ .
+ Boshiamy table and its icon are released under their own license.
