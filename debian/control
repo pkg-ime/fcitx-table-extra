@@ -13,7 +13,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-table-extra.git
 
 Package: fcitx-table-boshiamy
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Depends: ${misc:Depends}, fcitx-table
 Description: Flexible Input Method Framework - Boshiamy table
  Fcitx is a input method framework with extension support, which provides
  an interface for entering characters of different scripts in applications
@@ -29,7 +29,7 @@ Description: Flexible Input Method Framework - Boshiamy table
 
 Package: fcitx-table-cangjie3
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Depends: ${misc:Depends}, fcitx-table
 Description: Flexible Input Method Framework - Cangjie3 table
  Fcitx is a input method framework with extension support, which provides
  an interface for entering characters of different scripts in applications
@@ -45,7 +45,7 @@ Description: Flexible Input Method Framework - Cangjie3 table
 
 Package: fcitx-table-cangjie5
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Depends: ${misc:Depends}, fcitx-table
 Description: Flexible Input Method Framework - Cangjie5 table
  Fcitx is a input method framework with extension support, which provides
  an interface for entering characters of different scripts in applications
@@ -61,7 +61,7 @@ Description: Flexible Input Method Framework - Cangjie5 table
 
 Package: fcitx-table-cangjie-big
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Depends: ${misc:Depends}, fcitx-table
 Description: Flexible Input Method Framework - Cangjie-Big table
  Fcitx is a input method framework with extension support, which provides
  an interface for entering characters of different scripts in applications
@@ -77,7 +77,7 @@ Description: Flexible Input Method Framework - Cangjie-Big table
 
 Package: fcitx-table-zhengma
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Depends: ${misc:Depends}, fcitx-table
 Description: Flexible Input Method Framework - Zhengma table
  Fcitx is a input method framework with extension support, which provides
  an interface for entering characters of different scripts in applications
