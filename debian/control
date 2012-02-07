@@ -7,7 +7,7 @@ DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8), cmake, fcitx-libs-dev (>= 1:4.2.0),
     fcitx-tools (>= 1:4.2.0),  intltool
 Standards-Version: 3.9.2
-Homepage: http://fcitx.googlecode.com
+Homepage: http://code.googlecode.com/p/fcitx
 Vcs-Git: git://git.debian.org/pkg-ime/fcitx-table-extra.git
 Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-table-extra.git
 
@@ -73,7 +73,7 @@ Description: Flexible Input Method Framework - Cangjie-Big table
  for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
  API.
  .
- This package provides Cangjie-Bi table used by the Fcitx table engine.
+ This package provides Cangjie-Big table used by the Fcitx table engine.
 
 Package: fcitx-table-zhengma
 Architecture: any

@@ -3,8 +3,8 @@ Upstream-Name: fcitx-table-extra
 Source: http://code.google.com/p/fcitx
 
 Files: *
-Copyright: 2012 You-Sheng Yang (vicamo) <vicamo AT gmail DOT com>
-           2012 Xuetian Weng <wengxt AT gmail DOT com>
+Copyright: 2012 You-Sheng Yang (vicamo) <vicamo@gmail.com>
+           2012 Xuetian Weng <wengxt@gmail.com>
 License: GPL-2+
 Comments: For questions about data files, please read README.source.
 
