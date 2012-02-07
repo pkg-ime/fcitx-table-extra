@@ -1,0 +1,30 @@
+fcitx-table-extra for Debian
+----------------------------
+
+  There are several data files in this source package, the license of
+  them might be something confusing many people. These data files were
+  having there patents, but they were either released by the original
+  author (and the patent holder) into Public Domain (Cangjie), or the
+  patents had expired for several years. We are providing clean-room
+  re-generated data files using their ideas (which is not copyrightable,
+  and obviously not infringing expired patents).
+  .
+  * Boshiamy: 122588, expected to be expired in 2003, but actually
+    expired in 1992 because of not paying patent fees for more than
+    six months.
+    - Ref (Chinese): http://terryhung.pixnet.net/blog/post/24973556
+  * Cangjie*: 027984, expired in 1989, released to public domain by
+    original author in 1982.
+    - Ref (Chinese): http://cbflabs.com/?id=12
+  * Zhengma: CN1043210 (89108851.2), expired in 2009.
+    - Ref (Chinese): http://www.china-e.com.cn/main/zhengma/jj.htm
+  .
+  Clean room implementation of common tables:
+  http://qiangheng.openfoundry.org
+  .
+  Reference (BIG-5 encoded Chinese and English text):
+  1.http://www.angelfire.com/mn/10key/patents.html
+  2.http://code.google.com/p/ibus/wiki/ChineseTableLicenseAuditing
+    (outdated in expiration info)
+
+ -- Aron Xu <aron@debian.org>  Tue, 07 Feb 2012 11:52:53 +0800

@@ -4,18 +4,89 @@ Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.debian.org>
 Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 8), cmake, fcitx-libs-dev (>=1:4.2.0), fcitx-tools,
-  intltool
+Build-Depends: debhelper (>= 8), cmake, fcitx-libs-dev (>= 1:4.2.0),
+    fcitx-tools (>= 1:4.2.0),  intltool
 Standards-Version: 3.9.2
 Homepage: http://fcitx.googlecode.com
 Vcs-Git: git://git.debian.org/pkg-ime/fcitx-table-extra.git
 Vcs-Browser: http://git.debian.org/?p=pkg-ime/fcitx-table-extra.git
 
-Package: fcitx-table-extra
+Package: fcitx-table-boshiamy
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
-Description: extra tables for Fcitx
- provides extra table for Fcitx, including Boshiamy, Zhengma, 
- and Cangjie3, Cangjie5.
+Description: Flexible Input Method Framework - Boshiamy table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems. 
  .
- Boshiamy table and its icon are released under their own license.
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Boshiamy table used by the Fcitx table engine.
+
+Package: fcitx-table-cangjie3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Description: Flexible Input Method Framework - Cangjie3 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems. 
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie3 table used by the Fcitx table engine.
+
+Package: fcitx-table-cangjie5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Description: Flexible Input Method Framework - Cangjie5 table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems. 
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie5 table used by the Fcitx table engine.
+
+Package: fcitx-table-cangjie-big
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Description: Flexible Input Method Framework - Cangjie-Big table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems. 
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Cangjie-Bi table used by the Fcitx table engine.
+
+Package: fcitx-table-zhengma
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, fcitx-table
+Description: Flexible Input Method Framework - Zhengma table
+ Fcitx is a input method framework with extension support, which provides
+ an interface for entering characters of different scripts in applications
+ using a variety of mapping systems. 
+ .
+ It offers a pleasant and modern experience, with intuitive graphical
+ configuration tools and customizable skins and mapping tables. It is
+ highly modularized and extensible, with GTK+ 2/3 and Qt4 IM Modules, support
+ for UIs based on Fbterm, pure Xlib, GTK+, or KDE, and a developer-friendly
+ API.
+ .
+ This package provides Zhengma table used by the Fcitx table engine.
